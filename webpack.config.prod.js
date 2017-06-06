@@ -14,7 +14,7 @@ export default {
   entry: './src/index',
   target: 'web',
   output: {
-    path: `${__dirname}/lib/jekyll-admin/public`,
+    path: `${__dirname}/lib/jekyll-admin-josercc/public`,
     publicPath: `${ADMIN_PREFIX}/`,
     filename: 'bundle.js'
   },

@@ -17,16 +17,16 @@ require "sinatra/reloader"
 require "sinatra/namespace"
 
 module JekyllAdmin
-  autoload :APIable,          "jekyll-admin/apiable"
-  autoload :DataFile,         "jekyll-admin/data_file"
-  autoload :Directory,        "jekyll-admin/directory"
-  autoload :FileHelper,       "jekyll-admin/file_helper"
-  autoload :PageWithoutAFile, "jekyll-admin/page_without_a_file"
-  autoload :PathHelper,       "jekyll-admin/path_helper"
-  autoload :Server,           "jekyll-admin/server"
-  autoload :StaticServer,     "jekyll-admin/static_server"
-  autoload :URLable,          "jekyll-admin/urlable"
-  autoload :Version,          "jekyll-admin/version"
+  autoload :APIable,          "jekyll-admin-josercc/apiable"
+  autoload :DataFile,         "jekyll-admin-josercc/data_file"
+  autoload :Directory,        "jekyll-admin-josercc/directory"
+  autoload :FileHelper,       "jekyll-admin-josercc/file_helper"
+  autoload :PageWithoutAFile, "jekyll-admin-josercc/page_without_a_file"
+  autoload :PathHelper,       "jekyll-admin-josercc/path_helper"
+  autoload :Server,           "jekyll-admin-josercc/server"
+  autoload :StaticServer,     "jekyll-admin-josercc/static_server"
+  autoload :URLable,          "jekyll-admin-josercc/urlable"
+  autoload :Version,          "jekyll-admin-josercc/version"
 
   def self.site
     @site ||= begin

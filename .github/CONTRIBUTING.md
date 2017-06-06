@@ -2,19 +2,19 @@ Interested in contributing to Jekyll Admin? We’d love your help. Jekyll Admin 
 
 ## Where to get help or report a problem
 
-If you think you've found a bug with Jekyll Admin, or if you'd like to propose a new feature check out the [list of open issues](https://github.com/jekyll/jekyll-admin/issues) and if it's not there [open a new one](https://github.com/jekyll/jekyll-admin).
+If you think you've found a bug with Jekyll Admin, or if you'd like to propose a new feature check out the [list of open issues](https://github.com/jekyll/jekyll-admin-josercc/issues) and if it's not there [open a new one](https://github.com/jekyll/jekyll-admin-josercc).
 
 ## Ways to contribute
 
-* Add Jekyll Admin to an existing site. Does it work? Does it do what you'd expect? Anything else you'd like to see? If you have any suggestions, [open an issue](https://github.com/jekyll/jekyll-admin/issues/new)
+* Add Jekyll Admin to an existing site. Does it work? Does it do what you'd expect? Anything else you'd like to see? If you have any suggestions, [open an issue](https://github.com/jekyll/jekyll-admin-josercc/issues/new)
 
-* Comment on some of the project’s [open issues](https://github.com/jekyll/jekyll-admin/issues/). Have you experienced the same problem? Know a work around? Do you have a suggestion for how the feature could be better?
+* Comment on some of the project’s [open issues](https://github.com/jekyll/jekyll-admin-josercc/issues/). Have you experienced the same problem? Know a work around? Do you have a suggestion for how the feature could be better?
 
-* Read through [the documentation](http://jekyll.github.com/jekyll-admin), and click the “improve this page” button, any time you see something confusing, or have a suggestion for something that could be improved.
+* Read through [the documentation](http://jekyll.github.com/jekyll-admin-josercc), and click the “improve this page” button, any time you see something confusing, or have a suggestion for something that could be improved.
 
-* Find an [open issue](https://github.com/jekyll/jekyll-admin/issues/) (especially those labeled `help-wanted`), and submit a proposed fix. If it’s your first pull request, we promise we won’t bite, and are glad to answer any questions.
+* Find an [open issue](https://github.com/jekyll/jekyll-admin-josercc/issues/) (especially those labeled `help-wanted`), and submit a proposed fix. If it’s your first pull request, we promise we won’t bite, and are glad to answer any questions.
 
-* Help evaluate [open pull requests](https://github.com/jekyll/jekyll-admin/pulls/), by testing the changes locally and reviewing what’s proposed.
+* Help evaluate [open pull requests](https://github.com/jekyll/jekyll-admin-josercc/pulls/), by testing the changes locally and reviewing what’s proposed.
 
 ## Submitting a pull request
 
@@ -32,7 +32,7 @@ If you think you've found a bug with Jekyll Admin, or if you'd like to propose a
 
 Many small changes can be made entirely through the github.com web interface.
 
-1. Navigate to the file within [`jekyll/jekyll-admin`](https://github.com/jekyll/jekyll-admin) that you'd like to edit.
+1. Navigate to the file within [`jekyll/jekyll-admin-josercc`](https://github.com/jekyll/jekyll-admin-josercc) that you'd like to edit.
 2. Click the pencil icon in the top right corner to edit the file
 3. Make your proposed changes
 4. Click "Propose file change"
@@ -44,13 +44,13 @@ That's it! You'll be automatically subscribed to receive updates as others revie
 
 ### Submitting a pull request via Git command line
 
-1. Fork the project by clicking "Fork" in the top right corner of [`jekyll/jekyll-admin`](https://github.com/jekyll/jekyll-admin).
-2. Clone the repository locally `git clone https://github.com/<you-username>/jekyll-admin`.
+1. Fork the project by clicking "Fork" in the top right corner of [`jekyll/jekyll-admin-josercc`](https://github.com/jekyll/jekyll-admin-josercc).
+2. Clone the repository locally `git clone https://github.com/<you-username>/jekyll-admin-josercc`.
 3. Create a new, descriptively named branch to contain your change ( `git checkout -b my-awesome-feature` ).
 4. Hack away, add tests. Not necessarily in that order.
 5. Make sure everything still passes by running `script/cibuild` (see [the tests section](#running-tests-locally) below)
 6. Push the branch up ( `git push origin my-awesome-feature` ).
-7. Create a pull request by visiting `https://github.com/<your-username>/jekyll-admin` and following the instructions at the top of the screen.
+7. Create a pull request by visiting `https://github.com/<your-username>/jekyll-admin-josercc` and following the instructions at the top of the screen.
 
 ## Proposing updates to the documentation
 
@@ -60,10 +60,10 @@ If your contribution changes any Jekyll Admin behavior, make sure to update the 
 
 ### How to submit changes
 
-You can find the documentation in the [`/docs`](https://github.com/jekyll/jekyll-admin/tree/master/docs) directory. See the section above, [submitting a pull request](#submitting-a-pull-request) for information on how to propose a change.
+You can find the documentation in the [`/docs`](https://github.com/jekyll/jekyll-admin-josercc/tree/master/docs) directory. See the section above, [submitting a pull request](#submitting-a-pull-request) for information on how to propose a change.
 
 ### Previewing changes locally
 
 1. `script/bootstrap`
 2. `script/docs-server`
-3. Open [localhost:4000/jekyll-admin](http://localhost:4000/jekyll-admin) in your browser
+3. Open [localhost:4000/jekyll-admin-josercc](http://localhost:4000/jekyll-admin-josercc) in your browser

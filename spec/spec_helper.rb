@@ -1,7 +1,7 @@
 ENV["RACK_ENV"] = "test"
 
 require "rspec"
-require "jekyll-admin"
+require "jekyll-admin-josercc"
 require "rack/test"
 require "fileutils"
 require "open3"
@@ -16,7 +16,7 @@ def fixture_path(fixture)
 end
 
 def dist_path
-  File.expand_path "../lib/jekyll-admin/public/", File.dirname(__FILE__)
+  File.expand_path "../lib/jekyll-admin-josercc/public/", File.dirname(__FILE__)
 end
 
 def index_path

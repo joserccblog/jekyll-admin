@@ -15,11 +15,11 @@ fs.readFile('src/index.html', 'utf8', (readError, markup) => {
   // since a separate spreadsheet is only utilized for the production build, need to dynamically add this here.
   $('head').append('<link rel="stylesheet" href="/admin/styles.css">');
 
-  fs.writeFile('lib/jekyll-admin/public/index.html', $.html(), 'utf8', (writeError) => {
+  fs.writeFile('lib/jekyll-admin-josercc/public/index.html', $.html(), 'utf8', (writeError) => {
     if (writeError) {
       return console.log(chalkError(writeError));
     }
-    console.log(chalkSuccess('index.html written to /lib/jekyll-admin/public/'));
+    console.log(chalkSuccess('index.html written to /lib/jekyll-admin-josercc/public/'));
 
     return writeError;
   });

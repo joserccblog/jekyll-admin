@@ -2,7 +2,7 @@ export const collections = [
   {
     label: "posts",
     files: [],
-    directory: "/jekyll-admin/spec/fixtures/site/_posts",
+    directory: "/jekyll-admin-josercc/spec/fixtures/site/_posts",
     relative_directory: "_posts",
     permalink: "/:categories/:year/:month/:day/:title:output_ext",
     http_url: null,
@@ -11,7 +11,7 @@ export const collections = [
   {
     label: "puppies",
     files: [],
-    directory: "/jekyll-admin/spec/fixtures/site/_puppies",
+    directory: "/jekyll-admin-josercc/spec/fixtures/site/_puppies",
     relative_directory: "_puppies",
     foo: "bar",
     http_url: null,
@@ -41,7 +41,7 @@ export const doc = {
 export const collection = {
   label: "puppies",
   files: [],
-  directory: "/jekyll-admin/spec/fixtures/site/_puppies",
+  directory: "/jekyll-admin-josercc/spec/fixtures/site/_puppies",
   relative_directory: "_puppies",
   foo: "bar",
   http_url: null,

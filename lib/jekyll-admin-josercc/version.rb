@@ -1,0 +1,3 @@
+module JekyllAdmin
+  VERSION = "0.5.5".freeze
+end

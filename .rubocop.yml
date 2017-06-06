@@ -3,11 +3,11 @@ inherit_gem:
 
 AllCops:
   Exclude:
-    - lib/jekyll-admin/public/**/*
+    - lib/jekyll-admin-josercc/public/**/*
     - src/**/*
     - node_modules/**/*
     - Gemfile
-    - jekyll-admin.gemspec
+    - jekyll-admin-josercc.gemspec
 
 Metrics/BlockLength:
   Enabled: false

@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'jekyll-admin/version'
+require 'jekyll-admin-josercc/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-admin-josercc"
@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{wp-admin for Jekyll, but better}
   spec.description   = %q{Jekyll::Admin is a drop in administrative framework for Jekyll sites.}
-  spec.homepage      = "https://github.com/jekyll/jekyll-admin"
+  spec.homepage      = "https://github.com/joserccblog/jekyll-admin-josercc"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

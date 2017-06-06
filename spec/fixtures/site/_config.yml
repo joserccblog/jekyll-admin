@@ -2,7 +2,7 @@ title: Your awesome title
 
 # Load the admin interface.
 gems:
-  - jekyll-admin
+  - jekyll-admin-josercc
 
 # Exclude these files from being processed.
 exclude:

@@ -5,7 +5,7 @@ permalink: /development/
 
 ### To install locally
 
-1. `git clone https://github.com/jekyll/jekyll-admin && cd jekyll-admin`
+1. `git clone https://github.com/jekyll/jekyll-admin-josercc && cd jekyll-admin-josercc`
 2. `script/bootstrap`
 
 This will copy down the code and install all Node and Ruby dependencies.

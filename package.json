@@ -1,5 +1,5 @@
 {
-  "name": "jekyll-admin",
+  "name": "jekyll-admin-josercc",
   "version": "0.5.1",
   "description": "Admin Panel for Jekyll",
   "private": true,
@@ -12,8 +12,8 @@
     "lint": "esw webpack.config.* src tools",
     "lint:watch": "npm run lint -- --watch",
     "clean-dist": "npm run remove-dist  && npm run add-dist",
-    "add-dist": "mkdirp ./lib/jekyll-admin/public",
-    "remove-dist": "rimraf ./lib/jekyll-admin/public",
+    "add-dist": "mkdirp ./lib/jekyll-admin-josercc/public",
+    "remove-dist": "rimraf ./lib/jekyll-admin-josercc/public",
     "build:html": "babel-node tools/buildHtml.js",
     "prebuild": "npm run clean-dist && npm run build:html && npm run lint && npm test",
     "build": "babel-node tools/build.js",

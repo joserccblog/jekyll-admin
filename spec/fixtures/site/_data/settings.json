@@ -2,7 +2,7 @@
   "content": {
     "title": "Your awesome title",
     "gems": [
-      "jekyll-admin"
+      "jekyll-admin-josercc"
     ],
     "exclude": [
       "Gemfile",

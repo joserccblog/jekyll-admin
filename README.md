@@ -1,8 +1,8 @@
-[![Gem Version](https://img.shields.io/gem/v/jekyll-admin.svg)](https://rubygems.org/gems/jekyll-admin)
-[![Build Status](https://travis-ci.org/jekyll/jekyll-admin.svg?branch=master)](https://travis-ci.org/jekyll/jekyll-admin)
-[![Build status](https://ci.appveyor.com/api/projects/status/biop1r6ae524xlm2/branch/master?svg=true)](https://ci.appveyor.com/project/benbalter/jekyll-admin/branch/master)
-[![Coverage Status](https://coveralls.io/repos/github/jekyll/jekyll-admin/badge.svg?branch=master)](https://coveralls.io/github/jekyll/jekyll-admin?branch=master)
-[![NPM Dependencies](https://david-dm.org/jekyll/jekyll-admin.svg)](https://david-dm.org/jekyll/jekyll-admin)
+[![Gem Version](https://img.shields.io/gem/v/jekyll-admin-josercc.svg)](https://rubygems.org/gems/jekyll-admin-josercc)
+[![Build Status](https://travis-ci.org/jekyll/jekyll-admin-josercc.svg?branch=master)](https://travis-ci.org/jekyll/jekyll-admin-josercc)
+[![Build status](https://ci.appveyor.com/api/projects/status/biop1r6ae524xlm2/branch/master?svg=true)](https://ci.appveyor.com/project/benbalter/jekyll-admin-josercc/branch/master)
+[![Coverage Status](https://coveralls.io/repos/github/jekyll/jekyll-admin-josercc/badge.svg?branch=master)](https://coveralls.io/github/jekyll/jekyll-admin-josercc?branch=master)
+[![NPM Dependencies](https://david-dm.org/jekyll/jekyll-admin-josercc.svg)](https://david-dm.org/jekyll/jekyll-admin-josercc)
 
 A Jekyll plugin that provides users with a traditional CMS-style graphical interface to author content and administer Jekyll sites. The project is divided into two parts. A Ruby-based HTTP API that handles Jekyll and filesystem operations, and a Javascript-based front end, built on that API.
 
@@ -10,12 +10,12 @@ A Jekyll plugin that provides users with a traditional CMS-style graphical inter
 
 ## Installation
 
-Refer to the [installing plugins](https://jekyllrb.com/docs/plugins/#installing-a-plugin) section of Jekyll's documentation and install the `jekyll-admin` plugin as you would any other plugin. Here's the short version:
+Refer to the [installing plugins](https://jekyllrb.com/docs/plugins/#installing-a-plugin) section of Jekyll's documentation and install the `jekyll-admin-josercc` plugin as you would any other plugin. Here's the short version:
 
 1. Add the following to your site's Gemfile:
 
     ```ruby
-    gem 'jekyll-admin', group: :jekyll_plugins
+    gem 'jekyll-admin-josercc', group: :jekyll_plugins
     ```
 
 2. Run `bundle install`
@@ -43,7 +43,7 @@ jekyll_admin:
 
 ## Contributing
 
-Interested in contributing to Jekyll Admin? We’d love your help. Jekyll Admin is an open source project, built one contribution at a time by users like you. See [the contributing instructions](.github/CONTRIBUTING.md), and [the development docs](http://jekyll.github.io/jekyll-admin/development/) for more information.
+Interested in contributing to Jekyll Admin? We’d love your help. Jekyll Admin is an open source project, built one contribution at a time by users like you. See [the contributing instructions](.github/CONTRIBUTING.md), and [the development docs](http://jekyll.github.io/jekyll-admin-josercc/development/) for more information.
 
 ## Looking for a hosted version?
 
