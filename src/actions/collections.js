@@ -142,11 +142,11 @@ const generateFilenameFromTitle = (metadata, collection) => {
     if (metadata.date) {
       date = metadata.date.split(' ')[0];
     } else {
-      date = moment().format('YYYY-MM-DD');
+      date = moment().format('YYYY-MM-DD-h-mm-ss');
     }
-    return `${date}-${slugify(metadata.title)}.md`;
+    return `${date}-${metadata.title}.md`;
   }
-  return `${slugify(metadata.title)}.md`;
+  return `${metadata.title}.md`;
 };
 
 const validateDocument = (metadata, collection) => {

@@ -14,7 +14,7 @@ export default class InputFilename extends Component {
 
     let placeholder = 'example.md';
     if (type == 'posts') {
-      const date = moment().format('YYYY-MM-DD');
+      const date = moment().format('YYYY-MM-DD-h-mm-ss');
       placeholder = `${date}-your-title.md`;
     } else if (type == 'data files') {
       placeholder = 'your-filename.yml';

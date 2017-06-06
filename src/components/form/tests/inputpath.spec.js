@@ -35,7 +35,7 @@ describe('Components::InputPath', () => {
     const { input } = setup(Object.assign({}, props, {
       type: 'posts'
     }));
-    const expectedValue = moment().format('YYYY-MM-DD') + '-your-title.md';
+    const expectedValue = moment().format('YYYY-MM-DD-h-mm-ss') + '-your-title.md';
     expect(input.prop('placeholder')).toBe(expectedValue);
   });
 
